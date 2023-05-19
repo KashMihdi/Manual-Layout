@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		FDFA47432A17DF6E003C4E3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA47422A17DF6E003C4E3F /* AppDelegate.swift */; };
 		FDFA47452A17DF6E003C4E3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA47442A17DF6E003C4E3F /* SceneDelegate.swift */; };
-		FDFA47472A17DF6E003C4E3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA47462A17DF6E003C4E3F /* ViewController.swift */; };
-		FDFA474A2A17DF6E003C4E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFA47482A17DF6E003C4E3F /* Main.storyboard */; };
 		FDFA474C2A17DF6F003C4E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFA474B2A17DF6F003C4E3F /* Assets.xcassets */; };
 		FDFA474F2A17DF6F003C4E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFA474D2A17DF6F003C4E3F /* LaunchScreen.storyboard */; };
+		FDFA47572A17DFE7003C4E3F /* ManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA47562A17DFE7003C4E3F /* ManualLayout.swift */; };
+		FDFA47592A17E314003C4E3F /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA47582A17E314003C4E3F /* LabelFactory.swift */; };
+		FDFA475B2A17E6FC003C4E3F /* SliderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA475A2A17E6FC003C4E3F /* SliderFactory.swift */; };
+		FDFA475D2A17F49E003C4E3F /* TextFieldFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA475C2A17F49E003C4E3F /* TextFieldFactory.swift */; };
+		FDFA47602A17FBFA003C4E3F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FDFA475F2A17FBFA003C4E3F /* SnapKit */; };
+		FDFA47622A17FC10003C4E3F /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA47612A17FC10003C4E3F /* SnapKit.swift */; };
+		FDFA47642A18031E003C4E3F /* StackViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA47632A18031E003C4E3F /* StackViewFactory.swift */; };
+		FDFA47672A18057B003C4E3F /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = FDFA47662A18057B003C4E3F /* TinyConstraints */; };
+		FDFA47692A1805E9003C4E3F /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFA47682A1805E9003C4E3F /* TinyConstraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FDFA473F2A17DF6E003C4E3F /* Constraints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Constraints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFA47422A17DF6E003C4E3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDFA47442A17DF6E003C4E3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FDFA47462A17DF6E003C4E3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FDFA47492A17DF6E003C4E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDFA474B2A17DF6F003C4E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDFA474E2A17DF6F003C4E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDFA47502A17DF6F003C4E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFA47562A17DFE7003C4E3F /* ManualLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualLayout.swift; sourceTree = "<group>"; };
+		FDFA47582A17E314003C4E3F /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		FDFA475A2A17E6FC003C4E3F /* SliderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderFactory.swift; sourceTree = "<group>"; };
+		FDFA475C2A17F49E003C4E3F /* TextFieldFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFactory.swift; sourceTree = "<group>"; };
+		FDFA47612A17FC10003C4E3F /* SnapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		FDFA47632A18031E003C4E3F /* StackViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewFactory.swift; sourceTree = "<group>"; };
+		FDFA47682A1805E9003C4E3F /* TinyConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyConstraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDFA47602A17FBFA003C4E3F /* SnapKit in Frameworks */,
+				FDFA47672A18057B003C4E3F /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,60 @@
 		FDFA47412A17DF6E003C4E3F /* Constraints */ = {
 			isa = PBXGroup;
 			children = (
-				FDFA47422A17DF6E003C4E3F /* AppDelegate.swift */,
-				FDFA47442A17DF6E003C4E3F /* SceneDelegate.swift */,
-				FDFA47462A17DF6E003C4E3F /* ViewController.swift */,
-				FDFA47482A17DF6E003C4E3F /* Main.storyboard */,
-				FDFA474B2A17DF6F003C4E3F /* Assets.xcassets */,
-				FDFA474D2A17DF6F003C4E3F /* LaunchScreen.storyboard */,
-				FDFA47502A17DF6F003C4E3F /* Info.plist */,
+				FDFA476B2A180765003C4E3F /* ViewControllers */,
+				FDFA476A2A18070C003C4E3F /* Fabrica */,
+				FDFA476D2A1807C8003C4E3F /* Storyboards */,
+				FDFA476C2A18078B003C4E3F /* App */,
+				FDFA476E2A1807D5003C4E3F /* Resources */,
 			);
 			path = Constraints;
+			sourceTree = "<group>";
+		};
+		FDFA476A2A18070C003C4E3F /* Fabrica */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA47632A18031E003C4E3F /* StackViewFactory.swift */,
+				FDFA47582A17E314003C4E3F /* LabelFactory.swift */,
+				FDFA475A2A17E6FC003C4E3F /* SliderFactory.swift */,
+				FDFA475C2A17F49E003C4E3F /* TextFieldFactory.swift */,
+			);
+			path = Fabrica;
+			sourceTree = "<group>";
+		};
+		FDFA476B2A180765003C4E3F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA47562A17DFE7003C4E3F /* ManualLayout.swift */,
+				FDFA47682A1805E9003C4E3F /* TinyConstraints.swift */,
+				FDFA47612A17FC10003C4E3F /* SnapKit.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FDFA476C2A18078B003C4E3F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA47422A17DF6E003C4E3F /* AppDelegate.swift */,
+				FDFA47442A17DF6E003C4E3F /* SceneDelegate.swift */,
+				FDFA47502A17DF6F003C4E3F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FDFA476D2A1807C8003C4E3F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA474D2A17DF6F003C4E3F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FDFA476E2A1807D5003C4E3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDFA474B2A17DF6F003C4E3F /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +142,10 @@
 			dependencies = (
 			);
 			name = Constraints;
+			packageProductDependencies = (
+				FDFA475F2A17FBFA003C4E3F /* SnapKit */,
+				FDFA47662A18057B003C4E3F /* TinyConstraints */,
+			);
 			productName = Constraints;
 			productReference = FDFA473F2A17DF6E003C4E3F /* Constraints.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +174,10 @@
 				Base,
 			);
 			mainGroup = FDFA47362A17DF6E003C4E3F;
+			packageReferences = (
+				FDFA475E2A17FBF9003C4E3F /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FDFA47652A18057B003C4E3F /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+			);
 			productRefGroup = FDFA47402A17DF6E003C4E3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +194,6 @@
 			files = (
 				FDFA474F2A17DF6F003C4E3F /* LaunchScreen.storyboard in Resources */,
 				FDFA474C2A17DF6F003C4E3F /* Assets.xcassets in Resources */,
-				FDFA474A2A17DF6E003C4E3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +204,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDFA47472A17DF6E003C4E3F /* ViewController.swift in Sources */,
 				FDFA47432A17DF6E003C4E3F /* AppDelegate.swift in Sources */,
+				FDFA47592A17E314003C4E3F /* LabelFactory.swift in Sources */,
+				FDFA47642A18031E003C4E3F /* StackViewFactory.swift in Sources */,
+				FDFA475B2A17E6FC003C4E3F /* SliderFactory.swift in Sources */,
 				FDFA47452A17DF6E003C4E3F /* SceneDelegate.swift in Sources */,
+				FDFA475D2A17F49E003C4E3F /* TextFieldFactory.swift in Sources */,
+				FDFA47692A1805E9003C4E3F /* TinyConstraints.swift in Sources */,
+				FDFA47572A17DFE7003C4E3F /* ManualLayout.swift in Sources */,
+				FDFA47622A17FC10003C4E3F /* SnapKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FDFA47482A17DF6E003C4E3F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDFA47492A17DF6E003C4E3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FDFA474D2A17DF6F003C4E3F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +353,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BMFF8ZNZAT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Constraints/Info.plist;
+				INFOPLIST_FILE = Constraints/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +365,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Kasharin-M.Constraints";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +383,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BMFF8ZNZAT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Constraints/Info.plist;
+				INFOPLIST_FILE = Constraints/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +395,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Kasharin-M.Constraints";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +426,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FDFA475E2A17FBF9003C4E3F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		FDFA47652A18057B003C4E3F /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FDFA475F2A17FBFA003C4E3F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDFA475E2A17FBF9003C4E3F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FDFA47662A18057B003C4E3F /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDFA47652A18057B003C4E3F /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FDFA47372A17DF6E003C4E3F /* Project object */;
 }
